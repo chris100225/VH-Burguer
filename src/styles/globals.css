@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: var(--fonte-padrao);
+}
+
+:root {
+    --fundo-claro: #f1f1f1;
+    --fundo-escuro: #232122;
+    --laranja-destaque: #ffa300;
+    --vinho: #451201;
+    --preto: #000000;
+
+    --tamanho-titulo: 50px;
+    --tamanho-textobotao: 17px;
+}
+
+.layout_guide {
+    width: 80%;
+}
