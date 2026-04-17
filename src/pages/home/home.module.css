@@ -52,13 +52,32 @@
 #destaque {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: var(--fundo-escuro);
     height: 80vh;
 }
 
 #container_destaque {
+    width: 60vw;
+    height: 52vh;
     display: flex;
+    justify-content: center;
+}
+
+#mais_pedidos {
     background-image: url("../../../public/imgs/mais_pedidos.png");
-    width: 10vw;
-    height: 10vh;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+}
+
+#lanches {
+    background-image: url("../../../public/imgs/muito_bacon.png");
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+}
+
+#combos {
+    background-image: url("../../../public/imgs/super_combos.png");
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
 }
